@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pass a Message</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <label for="message">Please type a message to pass:</label> <br>
+            <input type="text" id="message" name="message"><br>
+            <input type="submit" value="Submit" id="submit">
+            <div class="displaymessage">
+            Last Message Delivered: <br><br>
+            <i><span id="messagecopy"></span></i>
+            <i><span id="error">ERROR: No input submitted! Please try again.</span></i>
+        </div>
+        </div>
+        <script src="code.js"></script>
+        <footer></footer>
+    </body>
+</html>
